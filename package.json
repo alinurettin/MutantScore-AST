@@ -1,0 +1,15 @@
+{
+  "name": "mutantscore-ast",
+  "version": "1.0.0",
+  "description": "AST-guided mutation testing engine for JavaScript/TypeScript codebases. Generates mutation operators (AOR, ROR, LCR, UOI), executes test suites against synthesized mutants, and computes the mutation score (Killed / Total - Equivalent).",
+  "main": "src/index.js",
+  "bin": {
+    "mutant-score": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node tests/run_tests.js",
+    "start": "node src/index.js"
+  },
+  "author": "Ali Nurettin Demir (@alinurettin)",
+  "license": "MIT"
+}

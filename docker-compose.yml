@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  mutantscore-ast:
+    build: .
+    ports:
+      - "7071:7071"
+    environment:
+      - PORT=7071
